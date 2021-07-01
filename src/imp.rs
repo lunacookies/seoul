@@ -175,6 +175,16 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
 
     builder.add_rules(&[Semantic("string"), Semantic("character")], palette.cyan());
 
+    builder.add_rules(
+        &[
+            Semantic("enumMember"),
+            Semantic("variable.constant"),
+            Semantic("variable.static"),
+            Semantic("boolean"),
+        ],
+        palette.strong_cyan(),
+    );
+
     builder.add_rule(Semantic("property"), palette.pink());
 
     builder.add_rules(

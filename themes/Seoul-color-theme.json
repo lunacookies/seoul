@@ -127,6 +127,22 @@
 			"foreground": "#98BCBD",
 			"fontStyle": ""
 		},
+		"enumMember": {
+			"foreground": "#6FBCBD",
+			"fontStyle": ""
+		},
+		"variable.constant": {
+			"foreground": "#6FBCBD",
+			"fontStyle": ""
+		},
+		"variable.static": {
+			"foreground": "#6FBCBD",
+			"fontStyle": ""
+		},
+		"boolean": {
+			"foreground": "#6FBCBD",
+			"fontStyle": ""
+		},
 		"property": {
 			"foreground": "#FFBFBD",
 			"fontStyle": ""
