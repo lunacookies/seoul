@@ -163,6 +163,10 @@
 			"foreground": "#BDBB72",
 			"fontStyle": ""
 		},
+		"lifetime": {
+			"foreground": "#0099BD",
+			"fontStyle": ""
+		},
 		"comment": {
 			"foreground": "#FFFFFF",
 			"italic": true

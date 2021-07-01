@@ -195,6 +195,8 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.dark_yellow(),
     );
 
+    builder.add_rule(Semantic("lifetime"), palette.dark_blue());
+
     builder.add_rule(
         Semantic("comment"),
         (palette.base(BaseScale::BrightFg), FontStyle::Italic),
