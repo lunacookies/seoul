@@ -123,6 +123,14 @@
 			"foreground": "#FFBFBD",
 			"fontStyle": ""
 		},
+		"macro": {
+			"foreground": "#BDBB72",
+			"fontStyle": ""
+		},
+		"*.attribute": {
+			"foreground": "#BDBB72",
+			"fontStyle": ""
+		},
 		"comment": {
 			"foreground": "#FFFFFF",
 			"italic": true
