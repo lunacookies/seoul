@@ -1,0 +1,29 @@
+{
+  "name": "seoul",
+  "displayName": "Seoul",
+  "description": "A theme based on seoul256.vim",
+  "publisher": "arzg",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/arzg/seoul"
+  },
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Seoul",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Seoul-color-theme.json"
+      }
+    ]
+  }
+}

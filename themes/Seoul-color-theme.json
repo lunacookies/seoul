@@ -1,0 +1,70 @@
+// Do not edit directly; this file is generated.
+{
+	"name": "Seoul",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#4C4C4C",
+		"editor.foreground": "#DFDFDF",
+		"foreground": "#DFDFDF",
+		"editorCursor.background": "#4C4C4C",
+		"editorCursor.foreground": "#FFFFFF",
+		"editor.lineHighlightBackground": "#515151",
+		"editor.selectionBackground": "#007173",
+		"selection.background": "#007173",
+		"minimap.selectionHighlight": "#007173",
+		"editorLineNumber.foreground": "#979797",
+		"editorLineNumber.activeForeground": "#DFDFDF",
+		"activityBar.background": "#454545",
+		"sideBar.background": "#454545",
+		"sideBar.foreground": "#ABABAB",
+		"activityBar.foreground": "#DFDFDF",
+		"activityBar.inactiveForeground": "#979797",
+		"statusBar.background": "#515151",
+		"statusBar.noFolderBackground": "#515151",
+		"statusBar.debuggingBackground": "#515151",
+		"statusBar.foreground": "#ABABAB",
+		"statusBar.noFolderForeground": "#ABABAB",
+		"list.activeSelectionBackground": "#515151",
+		"list.inactiveSelectionBackground": "#515151",
+		"list.focusBackground": "#515151",
+		"list.hoverBackground": "#515151",
+		"list.activeSelectionForeground": "#DFDFDF",
+		"list.highlightForeground": "#FFFFFF",
+		"editorWidget.background": "#454545",
+		"editorWidget.border": "#3A3A3A",
+		"editor.findMatchHighlightBackground": "#007173",
+		"editor.findMatchBackground": "#707070",
+		"editor.findMatchBorder": "#FFDD00",
+		"editorOverviewRuler.findMatchForeground": "#FFDD00",
+		"minimap.findMatchHighlight": "#FFDD00",
+		"input.background": "#3A3A3A",
+		"editorGroupHeader.tabsBackground": "#414141",
+		"tab.inactiveBackground": "#414141",
+		"tab.border": "#414141",
+		"tab.activeForeground": "#DFDFDF",
+		"tab.inactiveForeground": "#ABABAB",
+		"editorGroup.border": "#3A3A3A",
+		"scrollbarSlider.background": "#70707066",
+		"scrollbarSlider.hoverBackground": "#707070AA",
+		"scrollbarSlider.activeBackground": "#707070AA",
+		"editorOverviewRuler.border": "#707070",
+		"editorLightBulb.foreground": "#FFDD00",
+		"editorCodeLens.foreground": "#979797",
+		"focusBorder": "#707070",
+		"rust_analyzer.inlayHints.foreground": "#979797"
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"comment": {
+			"foreground": "#FFFFFF",
+			"italic": true
+		},
+		"*.mutable": {
+			"underline": true
+		},
+		"*.public.declaration": {
+			"bold": true
+		}
+	},
+	"tokenColors": []
+}
