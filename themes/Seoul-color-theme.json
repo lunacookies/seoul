@@ -55,6 +55,70 @@
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
+		"keyword": {
+			"foreground": "#98BC99",
+			"fontStyle": ""
+		},
+		"keyword.controlFlow": {
+			"foreground": "#98BEDE",
+			"fontStyle": ""
+		},
+		"arithmetic": {
+			"foreground": "#DEDD99",
+			"fontStyle": ""
+		},
+		"bitwise": {
+			"foreground": "#DEDD99",
+			"fontStyle": ""
+		},
+		"comparison": {
+			"foreground": "#DEDD99",
+			"fontStyle": ""
+		},
+		"logical": {
+			"foreground": "#DEDD99",
+			"fontStyle": ""
+		},
+		"function": {
+			"foreground": "#DFDEBD",
+			"fontStyle": ""
+		},
+		"method": {
+			"foreground": "#DFDEBD",
+			"fontStyle": ""
+		},
+		"type": {
+			"foreground": "#DFBC72",
+			"fontStyle": ""
+		},
+		"class": {
+			"foreground": "#DFBC72",
+			"fontStyle": ""
+		},
+		"struct": {
+			"foreground": "#DFBC72",
+			"fontStyle": ""
+		},
+		"enum": {
+			"foreground": "#DFBC72",
+			"fontStyle": ""
+		},
+		"interface": {
+			"foreground": "#DFBC72",
+			"fontStyle": ""
+		},
+		"union": {
+			"foreground": "#DFBC72",
+			"fontStyle": ""
+		},
+		"builtinType": {
+			"foreground": "#DFBC72",
+			"fontStyle": ""
+		},
+		"typeParameter": {
+			"foreground": "#DFBC72",
+			"fontStyle": ""
+		},
 		"comment": {
 			"foreground": "#FFFFFF",
 			"italic": true

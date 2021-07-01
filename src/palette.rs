@@ -8,12 +8,32 @@ impl Palette {
         oklch(scale.lightness(), 0.0, 0.0)
     }
 
+    pub(crate) fn orange(&self) -> Oklch {
+        oklch(0.8098629, 0.10114792, 84.903305)
+    }
+
     pub(crate) fn yellow(&self) -> Oklch {
         oklch(0.89870447, 0.18559207, 97.86518)
     }
 
+    pub(crate) fn cream(&self) -> Oklch {
+        oklch(0.89280736, 0.043737248, 105.87018)
+    }
+
+    pub(crate) fn light_yellow(&self) -> Oklch {
+        oklch(0.88245827, 0.08747428, 107.37559)
+    }
+
+    pub(crate) fn green(&self) -> Oklch {
+        oklch(0.7591353, 0.062844805, 145.6965)
+    }
+
     pub(crate) fn teal(&self) -> Oklch {
         oklch(0.49750343, 0.08471402, 196.96284)
+    }
+
+    pub(crate) fn blue(&self) -> Oklch {
+        oklch(0.7849458, 0.061410464, 244.10135)
     }
 }
 

@@ -145,6 +145,34 @@ fn workspace_colors(builder: &mut ThemeBuilder, palette: &Palette) {
 }
 
 fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
+    builder.add_rule(Semantic("keyword"), palette.green());
+    builder.add_rule(Semantic("keyword.controlFlow"), palette.blue());
+    builder.add_rules(
+        &[
+            Semantic("arithmetic"),
+            Semantic("bitwise"),
+            Semantic("comparison"),
+            Semantic("logical"),
+        ],
+        palette.light_yellow(),
+    );
+
+    builder.add_rules(&[Semantic("function"), Semantic("method")], palette.cream());
+
+    builder.add_rules(
+        &[
+            Semantic("type"),
+            Semantic("class"),
+            Semantic("struct"),
+            Semantic("enum"),
+            Semantic("interface"),
+            Semantic("union"),
+            Semantic("builtinType"),
+            Semantic("typeParameter"),
+        ],
+        palette.orange(),
+    );
+
     builder.add_rule(
         Semantic("comment"),
         (palette.base(BaseScale::BrightFg), FontStyle::Italic),
