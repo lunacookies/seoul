@@ -119,6 +119,14 @@
 			"foreground": "#DFBC72",
 			"fontStyle": ""
 		},
+		"string": {
+			"foreground": "#98BCBD",
+			"fontStyle": ""
+		},
+		"character": {
+			"foreground": "#98BCBD",
+			"fontStyle": ""
+		},
 		"property": {
 			"foreground": "#FFBFBD",
 			"fontStyle": ""
