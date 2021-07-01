@@ -200,6 +200,11 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         (palette.base(BaseScale::BrightFg), FontStyle::Italic),
     );
 
+    builder.add_rules(
+        &[Semantic("punctuation"), Semantic("operator")],
+        palette.tan(),
+    );
+
     builder.add_rule(Semantic("*.mutable"), FontStyle::Underline);
     builder.add_rule(Semantic("*.public.declaration"), FontStyle::Bold);
 }

@@ -167,6 +167,14 @@
 			"foreground": "#FFFFFF",
 			"italic": true
 		},
+		"punctuation": {
+			"foreground": "#BDBC98",
+			"fontStyle": ""
+		},
+		"operator": {
+			"foreground": "#BDBC98",
+			"fontStyle": ""
+		},
 		"*.mutable": {
 			"underline": true
 		},
