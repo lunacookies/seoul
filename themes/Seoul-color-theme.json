@@ -56,7 +56,7 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"keyword": {
-			"foreground": "#98BC99",
+			"foreground": "#E19972",
 			"fontStyle": ""
 		},
 		"keyword.controlFlow": {
