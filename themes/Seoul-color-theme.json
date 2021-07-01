@@ -151,6 +151,10 @@
 			"foreground": "#FFBFBD",
 			"fontStyle": ""
 		},
+		"namespace": {
+			"foreground": "#98BC99",
+			"fontStyle": ""
+		},
 		"macro": {
 			"foreground": "#BDBB72",
 			"fontStyle": ""

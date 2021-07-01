@@ -188,6 +188,8 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
 
     builder.add_rule(Semantic("property"), palette.pink());
 
+    builder.add_rule(Semantic("namespace"), palette.green());
+
     builder.add_rules(
         &[Semantic("macro"), Semantic("*.attribute")],
         palette.dark_yellow(),
