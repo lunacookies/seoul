@@ -119,6 +119,10 @@
 			"foreground": "#DFBC72",
 			"fontStyle": ""
 		},
+		"number": {
+			"foreground": "#FFDE99",
+			"fontStyle": ""
+		},
 		"string": {
 			"foreground": "#98BCBD",
 			"fontStyle": ""

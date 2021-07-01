@@ -173,6 +173,7 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.orange(),
     );
 
+    builder.add_rule(Semantic("number"), palette.light_orange());
     builder.add_rules(&[Semantic("string"), Semantic("character")], palette.cyan());
 
     builder.add_rules(
