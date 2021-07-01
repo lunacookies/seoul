@@ -173,6 +173,8 @@ fn syntax_highlighting(builder: &mut ThemeBuilder, palette: &Palette) {
         palette.orange(),
     );
 
+    builder.add_rule(Semantic("property"), palette.pink());
+
     builder.add_rule(
         Semantic("comment"),
         (palette.base(BaseScale::BrightFg), FontStyle::Italic),

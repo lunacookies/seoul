@@ -119,6 +119,10 @@
 			"foreground": "#DFBC72",
 			"fontStyle": ""
 		},
+		"property": {
+			"foreground": "#FFBFBD",
+			"fontStyle": ""
+		},
 		"comment": {
 			"foreground": "#FFFFFF",
 			"italic": true
